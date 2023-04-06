@@ -2,3 +2,22 @@ header {
 background-color: blue;
 
 }
+.logo { 
+    width: 250px;
+    position: relative;
+    left: 300px;
+    top: 35;
+}
+.cabecalho{
+    display:flex;
+    font-size: 60px;
+}
+.item{
+    color: blue;
+    position:relative;
+    left: 500px;
+}
+.alura{
+    width: 200px;
+
+}
