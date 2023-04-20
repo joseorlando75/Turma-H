@@ -1,6 +1,9 @@
-header {
-background-color: blue;
-
+body{
+    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {    
+    background: #144acf;
 }
 .logo { 
     width: 250px;
@@ -11,14 +14,18 @@ background-color: blue;
 .cabecalho{
     display:flex;
     font-size: 60px;
+    margin-left: 600px;
+    margin-top: 10px;
 }
+
 .item{
-    color: rgb(255, 0, 157);
-    position:relative;
+    color: rgb(237, 242, 237);
+    position: relative;
     left: 500px;
-    padding-left: 80px;
-    margin-left: 150px;
+    bottom: 80px;
+    margin-left: 55px;
 }
+
 .alura{
     width: 200px;
     position: relative;
@@ -34,4 +41,16 @@ background-color: blue;
     padding-top:50px;
     font-size: 70px;
     color:rgb(7, 7, 7)
+}
+.cursistas{
+    background-color: beige;
+}
+.titulocursistas{
+    font-size: 60px;
+    font-family: tahoma;
+    color:blue;
+    text-align: center;
+}
+.fotocursistas{
+    width: 210px;
 }
